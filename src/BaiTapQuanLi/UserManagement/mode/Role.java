@@ -1,4 +1,6 @@
-package BaiTapQuanLi.UserManagement;
+package BaiTapQuanLi.UserManagement.mode;
+
+import java.util.Scanner;
 
 public class Role {
     private int id ;
@@ -40,10 +42,11 @@ public class Role {
 
     @Override
     public String toString() {
-        return "Role{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                '}';
+        return  id +
+                "," + name +
+                "," + description +
+                '\n';
     }
+
+
 }

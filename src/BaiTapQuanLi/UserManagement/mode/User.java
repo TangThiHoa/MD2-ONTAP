@@ -1,4 +1,4 @@
-package BaiTapQuanLi.UserManagement;
+package BaiTapQuanLi.UserManagement.mode;
 
 public class User {
     private  int id ;
